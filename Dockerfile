@@ -1,6 +1,6 @@
 FROM nginx:mainline-alpine
-COPY riddick.png /var/www/html/
+COPY riddick.png /usr/share/nginx/html
 RUN ls -la /etc/nginx/
-RUN ls -la /var/www/html/
+RUN ls -la /usr/share/nginx/html
 
 
